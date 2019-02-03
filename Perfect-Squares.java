@@ -1,4 +1,6 @@
- int[] dp = new int[n+1];
+class Solution {
+    public int numSquares(int n) {
+        int[] dp = new int[n+1];
         int s=0;
         int dif;
         for(int i=1;i<=n;i++){
